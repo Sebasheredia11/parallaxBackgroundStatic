@@ -1,0 +1,121 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.services {
+  height: auto;
+}
+
+.services--title {
+  color: black;
+  text-align: center;
+  padding: 50px 0 40px 0;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .services--title {
+    padding: 50px 0px 0px 0;
+  }
+}
+
+.background__services {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 435px) {
+  .background__services {
+    margin: 50px 0;
+  }
+}
+
+.background__services .service__container {
+  text-align: center;
+}
+
+.background__services .service__container h2 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .background__services .service__container h2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .background__services .service__container h2 {
+    font-size: 2.8rem;
+  }
+}
+
+.background__services:nth-child(2) .service__container h2 {
+  background-image: url(/accets/imagenes/pared.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background__services:nth-child(3) .service__container h2 {
+  background-image: url(/Accets/imagenes/lendo.jpg);
+}
+
+.background__services:nth-child(4) .service__container h2 {
+  background-image: url(/Accets/imagenes/e-commerce.jpg);
+}
+
+.service__container p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .service__container p {
+    font-size: 1.2rem;
+  }
+}
+
+.service__container a {
+  display: inline-block;
+  padding: 13px 27px;
+  border: 2px solid #000;
+  margin-top: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.service__container a:hover {
+  background-color: #000;
+  color: white;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+/*# sourceMappingURL=main.css.map */
